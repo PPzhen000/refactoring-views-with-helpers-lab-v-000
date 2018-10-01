@@ -1,9 +1,9 @@
 module ArtistsHelper
   def display_artist(song)
     if !song.artist
-      redirect_to song
+      link_to song
     else
-      redirect_to song.artist
+      link_to song.artist
     end
   end
 end
