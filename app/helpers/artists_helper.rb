@@ -3,7 +3,7 @@ module ArtistsHelper
     if !song.artist_name
       redirect_to  song
     else
-      redirect_to, song.artist
+      redirect_to song.artist
     end
   end
 end
